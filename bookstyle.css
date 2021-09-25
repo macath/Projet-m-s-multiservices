@@ -1,0 +1,1166 @@
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('quicksand-regular-webfont.woff2') format('woff2'),
+         url('quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: "quicksandregular", "comic sans ms";
+	font-size: 1.2em;
+	display: block;
+	margin: 0px;
+}
+
+#MS{
+	color: #E54C10;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+header{
+	display: flex;
+}
+
+#name{
+	display: flex;
+	width: 25%;
+}
+
+#name img{
+    width: 100px;
+}
+
+#adress{
+	display: flex;
+	background-color: #03203A;
+	color: white;
+	width: 75%;
+	font-size: 0.9em;
+}
+
+#phoneimg{
+	margin-left: 3%;
+	margin-top: 3%;
+}
+
+#phone{
+	margin-left: 1%;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	border-left: 1px white solid;
+	padding-left: 1%;
+	height: 40%;
+	width: 200px;
+}
+
+#mailimg{
+	margin-left: 4%;
+	margin-top: 3.2%;
+}
+
+#mail{
+	margin-left: 1%;
+	margin-top: 2.3%;
+	margin-bottom: 2.5%;
+	border-left: 1px white solid;
+	padding-left: 1%;
+	height: 40%;
+	width: 200px;
+}
+
+#fbkimg{
+	margin-left: 18%;
+	margin-top: 3%;
+}
+
+#fbk{
+	margin-left: 1%;
+	margin-top: 3%;
+}
+
+#instaimg{
+	margin-left: 5%;
+	margin-top: 3%;
+}
+
+#insta{
+	margin-left: 1%;
+	margin-top: 3%;
+}
+
+h1{
+	font-size: 1.4em;
+	margin: auto;
+}
+
+ul{
+	display: flex;
+	list-style-type: none;
+}
+
+#home{
+	margin-left: 10%;
+}
+
+#presta{
+	margin: auto;
+}
+
+#book{
+	margin-right: 10%;
+}
+
+nav{
+	margin-top: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-color: #E9E9ED;
+	height: 10%;
+	padding: 0.5%;
+}
+
+nav a{
+	color: black;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 2px 1px 1px gray;
+}
+
+aside{
+	display: flex;
+	margin-top: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	position: relative;
+}
+
+aside img{
+	width: 100%;
+}
+
+#intro{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-shadow: 1px 1px 1px gray;
+}
+
+#guinguette{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#guinguette img{
+	border: 2px black solid;
+	width: 500px;
+}
+
+#guinguette p{
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+#cloison{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#cloison img{
+	border: 2px black solid;
+	width: 500px;
+}
+
+#cloison p{
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+#portillon{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#portillon img{
+	border: 2px black solid;
+	width: 500px;
+}
+
+#portillon p{
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+#douche{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#douche img{
+	border: 2px black solid;
+	width: 500px;
+}
+
+#douche p{
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+#parquet{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#parquet img{
+	border: 2px black solid;
+	width: 500px;
+}
+
+#parquet p{
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+#abri{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#abri img{
+	border: 2px black solid;
+	width: 500px;
+}
+
+#abri p{
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+#bardage{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#bardage img{
+	border: 2px black solid;
+	width: 500px;
+}
+
+#bardage p{
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+#adoucisseur{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#adoucisseur img{
+	border: 2px black solid;
+	width: 500px;
+}
+
+#adoucisseur p{
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+#cache{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#cache img{
+	border: 2px black solid;
+	width: 500px;
+}
+
+#cache p{
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+#cuisine{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#cuisine img{
+	border: 2px black solid;
+	width: 500px;
+}
+
+#cuisine p{
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+#pergola{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#pergola img{
+	border: 2px black solid;
+	width: 500px;
+}
+
+#pergola p{
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+#pergola2{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#pergola2 img{
+	border: 2px black solid;
+	width: 500px;
+}
+
+#pergola2 p{
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+#pergola3{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#pergola3 img{
+	border: 2px black solid;
+	width: 500px;
+}
+
+#pergola3 p{
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+#pergola4{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#pergola4 img{
+	border: 2px black solid;
+	width: 500px;
+}
+
+#pergola4 p{
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+footer{
+	display: flex;
+	margin-top: 15%;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-bottom: 0%;
+	background-color: black;
+	color: white;
+	height: 25px;
+	padding-left: 20%;
+	padding-bottom: 2%;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+
+@media all and (max-device-width: 480px){
+	body{
+		font-size: 1em;
+		display: block;
+		margin: 0px;
+	}
+
+	header{
+		flex-direction: column;
+	}
+
+	#name{
+		width: 100%;
+		height: 10%;
+	}
+
+	#adress{
+		width: 100%;
+	}
+
+	#phoneimg{
+		margin-top: 2%;
+		margin-left: 3%
+	}
+
+	#phone{
+		margin-left: 2%;
+		margin-top: 1%;
+		border-left: 1px white solid;
+		padding-left: 2%;
+		height: 5%;
+	}
+
+	#mailimg{
+		margin-top: 15%;
+		margin-left: -40%;
+	}
+
+	#mail{
+		margin-left: 2%;
+		margin-top: 13%;
+		border-left: 1px white solid;
+		padding-left: 2%;
+		height: 5%;
+	}
+
+	#fbkimg{
+		margin-left: -50%;
+		margin-top: 25%;
+	}
+
+	#fbk{
+		margin-left: 1%;
+		margin-top: 25%;
+	}
+
+	#instaimg{
+		margin-left: 5%;
+		margin-top: 25%;
+	}
+
+	#insta{
+		margin-left: 1%;
+		margin-top: 25%;
+	}
+
+	nav{
+		margin-top: 0%;
+		width: 100%;
+		background-color: #E9E9ED;
+		height: 10%;
+		padding: 0.5%;
+	}
+
+	.box{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	
+	#home{
+		margin-left: -7%;
+	}
+
+	#presta{
+		margin: auto;
+	}
+
+	#book{
+		margin-right: 5%;
+	}
+
+	aside{
+		margin-top: 0%;
+		height: 150px;
+	}
+
+	#intro{
+		display: flex;
+		margin-top: 5%;
+		margin-left: 12%;
+		margin-right: 8%;
+	}
+
+	#guinguette{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#guinguette img{
+		border: 2px black solid;
+		width: 300px;
+	}
+
+	#guinguette p{
+		margin-left: -6%;
+	}
+
+	#cloison{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#cloison img{
+		border: 2px black solid;
+		width: 300px;
+	}
+
+	#cloison p{
+		margin-left: -6%;
+	}
+
+	#portillon{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#portillon img{
+		border: 2px black solid;
+		width: 300px;
+	}
+
+	#portillon p{
+		margin-left: -6%;
+	}
+
+	#douche{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#douche img{
+		border: 2px black solid;
+		width: 300px;
+	}
+
+	#douche p{
+		margin-left: -6%;
+	}
+
+	#parquet{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#parquet img{
+		border: 2px black solid;
+		width: 300px;
+	}
+
+	#parquet p{
+		margin-left: -6%;
+	}
+
+	#abri{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#abri img{
+		border: 2px black solid;
+		width: 300px;
+	}
+
+	#abri p{
+		margin-left: -6%;
+	}
+
+	#bardage{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#bardage img{
+		border: 2px black solid;
+		width: 300px;
+	}
+
+	#bardage p{
+		margin-left: -6%;
+	}
+
+	#adoucisseur{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#adoucisseur img{
+		border: 2px black solid;
+		width: 300px;
+	}
+
+	#adoucisseur p{
+		margin-left: -6%;
+	}
+
+	#cache{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#cache img{
+		border: 2px black solid;
+		width: 300px;
+	}
+
+	#cache p{
+		margin-left: -6%;
+	}
+
+	#cuisine{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#cuisine img{
+		border: 2px black solid;
+		width: 300px;
+	}
+
+	#cuisine p{
+		margin-left: -6%;
+	}
+
+	#pergola{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#pergola img{
+		border: 2px black solid;
+		width: 300px;
+	}
+
+	#pergola p{
+		margin-left: -6%;
+	}
+
+	#pergola2{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#pergola2 img{
+		border: 2px black solid;
+		width: 300px;
+	}
+
+	#pergola2 p{
+		margin-left: -6%;
+	}
+
+	#pergola3{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#pergola3 img{
+		border: 2px black solid;
+		width: 300px;
+	}
+
+	#pergola3 p{
+		margin-left: -6%;
+	}
+
+	#pergola4{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#pergola4 img{
+		border: 2px black solid;
+		width: 300px;
+	}
+
+	#pergola4 p{
+		margin-left: -6%;
+	}
+
+	footer{
+		height: 4%;
+	}
+
+	footer p{
+		margin: auto;
+	}
+}
+
+@media all and (min-device-width: 481px) and (max-device-width: 1024px){
+
+	body{
+		font-size: 1em;
+		display: block;
+		margin: 0px;
+	}
+
+	header{
+		flex-direction: column;
+	}
+
+	#name{
+		width: 100%;
+		height: 10%;
+		font-size: 1.5em;
+	}
+
+	#adress{
+		width: 100%;
+		height: 10%;
+		flex-wrap: wrap;
+	}
+
+	#phoneimg{
+		margin-top: 2%;
+		margin-left: 2%
+	}
+
+	#phone{
+		margin-left: 2%;
+		margin-top: 1%;
+		border-left: 1px white solid;
+		padding-left: 2%;
+		height: 30%;
+		width: 180px;
+	}
+
+	#mailimg{
+		margin-top: 9%;
+		margin-left: -13%;
+	}
+
+	#mail{
+		margin-left: 2%;
+		margin-top: 8%;
+		border-left: 1px white solid;
+		padding-left: 2%;
+		height: 30%;
+	}
+
+	#fbkimg{
+		margin-left: -15%;
+		margin-top: 15%;
+	}
+
+	#fbk{
+		margin-left: 1%;
+		margin-top: 15%;
+	}
+
+	#instaimg{
+		margin-left: 3%;
+		margin-top: 15%;
+	}
+
+	#insta{
+		margin-left: 1%;
+		margin-top: 15%;
+	}
+
+	nav{
+		margin-top: 0%;
+		width: 100%;
+		background-color: #E9E9ED;
+		height: 10%;
+		padding: 0.5%;
+	}
+
+	.box{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	
+	#home{
+		margin-left: -3%;
+	}
+
+	#presta{
+		margin: auto;
+	}
+
+	#book{
+		margin-right: 5%;
+	}
+
+	aside{
+		margin-top: 0%;
+	}
+
+	aside h2{
+		display: none;
+	}
+
+	#intro{
+		display: flex;
+		margin-top: 5%;
+		margin-left: 12%;
+		margin-right: 8%;
+	}
+
+	#guinguette{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#guinguette img{
+		border: 2px black solid;
+		width: 90%;
+	}
+
+	#guinguette p{
+		margin-left: -3%;
+		width: 90%;
+	}
+
+	#cloison{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#cloison img{
+		border: 2px black solid;
+		width: 90%;
+	}
+
+	#cloison p{
+		margin-left: -3%;
+		width: 90%;
+	}
+
+	#portillon{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#portillon img{
+		border: 2px black solid;
+		width: 90%;
+	}
+
+	#portillon p{
+		margin-left: -3%;
+		width: 90%;
+	}
+
+	#douche{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#douche img{
+		border: 2px black solid;
+		width: 90%;
+	}
+
+	#douche p{
+		margin-left: -3%;
+		width: 90%;
+	}
+
+	#parquet{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#parquet img{
+		border: 2px black solid;
+		width: 90%;
+	}
+
+	#parquet p{
+		margin-left: -3%;
+		width: 90%;
+	}
+
+	#abri{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#abri img{
+		border: 2px black solid;
+		width: 90%;
+	}
+
+	#abri p{
+		margin-left: -3%;
+		width: 90%;
+	}
+
+	#bardage{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#bardage img{
+		border: 2px black solid;
+		width: 90%;
+	}
+
+	#bardage p{
+		margin-left: -3%;
+		width: 90%;
+	}
+
+	#adoucisseur{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#adoucisseur img{
+		border: 2px black solid;
+		width: 90%;
+	}
+
+	#adoucisseur p{
+		margin-left: -3%;
+		width: 90%;
+	}
+
+	#cache{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#cache img{
+		border: 2px black solid;
+		width: 90%;
+	}
+
+	#cache p{
+		margin-left: -3%;
+		width: 90%;
+	}
+
+	#cuisine{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#cuisine img{
+		border: 2px black solid;
+		width: 90%;
+	}
+
+	#cuisine p{
+		margin-left: -3%;
+		width: 90%;
+	}
+
+	#pergola{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#pergola img{
+		border: 2px black solid;
+		width: 90%;
+	}
+
+	#pergola p{
+		margin-left: -3%;
+		width: 90%;
+	}
+
+	#pergola2{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#pergola2 img{
+		border: 2px black solid;
+		width: 90%;
+	}
+
+	#pergola2 p{
+		margin-left: -3%;
+		width: 90%;
+	}
+
+	#pergola3{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#pergola3 img{
+		border: 2px black solid;
+		width: 90%;
+	}
+
+	#pergola3 p{
+		margin-left: -3%;
+		width: 90%;
+	}
+
+	#pergola4{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+
+	#pergola4 img{
+		border: 2px black solid;
+		width: 90%;
+	}
+
+	#pergola4 p{
+		margin-left: -3%;
+		width: 90%;
+	}
+
+	footer{
+		height: 4%;
+		margin-bottom: 0%;
+	}
+
+	footer p{
+		margin: auto;
+	}
+}
